@@ -49,7 +49,7 @@ def parse_20_news(directory):
 
     
 class Naive_Bayes:
-    def __init__(self,vectorizer_type = "Count",test_train_ratio=.2,Data = None):
+    def __init__(self,vectorizer_type = "Count",test_train_ratio=.9,Data = None):
         self.vectorizer = None
         self.test_train_ratio = test_train_ratio
         self.classifier = MB()
